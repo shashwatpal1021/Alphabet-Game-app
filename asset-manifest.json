@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Alphabet-Game-app/static/css/main.12d0d553.css",
+    "main.css": "/Alphabet-Game-app/static/css/main.98cf1c62.css",
     "main.js": "/Alphabet-Game-app/static/js/main.bccbe830.js",
     "static/js/787.6675862c.chunk.js": "/Alphabet-Game-app/static/js/787.6675862c.chunk.js",
     "index.html": "/Alphabet-Game-app/index.html",
-    "main.12d0d553.css.map": "/Alphabet-Game-app/static/css/main.12d0d553.css.map",
+    "main.98cf1c62.css.map": "/Alphabet-Game-app/static/css/main.98cf1c62.css.map",
     "main.bccbe830.js.map": "/Alphabet-Game-app/static/js/main.bccbe830.js.map",
     "787.6675862c.chunk.js.map": "/Alphabet-Game-app/static/js/787.6675862c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12d0d553.css",
+    "static/css/main.98cf1c62.css",
     "static/js/main.bccbe830.js"
   ]
 }
