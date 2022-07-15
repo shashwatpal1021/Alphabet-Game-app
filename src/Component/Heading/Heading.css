@@ -4,13 +4,13 @@
 
 .heading > h1 {
   text-transform: capitalize;
-  font-size: 3vh;
+  font-size: 8vw;
   padding: 10px;
 }
 
 .heading > span {
   display: block;
-  font-size: 2vh;
+  font-size: 5vw;
   font-weight: 200;
 }
 
