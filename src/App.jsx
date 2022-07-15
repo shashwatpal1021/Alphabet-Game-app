@@ -11,7 +11,6 @@ import Timer from "./Component/Timer/Timer";
 
 let stream = randomeStreamGenerator();
 // console.log(stream);
-
 const App = () => {
   const inputRef = useRef(null);
   const [outgoingChar, setOutgoingChar] = useState("");
