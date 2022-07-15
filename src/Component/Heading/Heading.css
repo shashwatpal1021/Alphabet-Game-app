@@ -5,7 +5,7 @@
 .heading > h1 {
   text-transform: capitalize;
   font-size: 4vh;
-  padding: 10px;
+  padding: 1vh;
 }
 
 .heading > span {
@@ -16,6 +16,10 @@
 
 
 @media screen and (max-width: 680px) {
+  .heading {
+    margin-top: 1vh;
+  }
+  
   .heading > span {
     padding: 3vw;
     font-weight: 400;
@@ -23,5 +27,6 @@
   }
   .heading > h1{
     font-size: 25px;
+    padding: 4px;
   }
 }

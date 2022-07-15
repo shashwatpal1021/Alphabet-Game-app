@@ -18,7 +18,8 @@
 
 @media screen and (max-width: 880px) {
   .App{
-    min-height: 10vh;
+    height: 100%;
     width: 100%;
+    gap:1rem;
   }
 }
