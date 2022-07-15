@@ -1,0 +1,36 @@
+.input-form {
+  display: grid;
+  grid-template-columns: 4fr 1.4fr;
+  width: 60vw;
+}
+
+.input-field {
+  background-color: rgb(245, 226, 197);
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.input-field::placeholder {
+  text-transform: capitalize;
+}
+
+.reset {
+  outline: none;
+  border: none;
+  background-color: #ff006a;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 750px) {
+  .input-form{
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.display {
+  width: 44vw;
+  padding: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #27ae60;
+  background-color: #f0f8ff;
+  border-radius: 10px;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+  .display{
+   width:90%;
+   padding: 40px;
+  }
+}

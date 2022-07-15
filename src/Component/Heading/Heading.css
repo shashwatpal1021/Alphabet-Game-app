@@ -1,0 +1,24 @@
+.heading {
+  margin-top: 50px;
+}
+
+.heading > h1 {
+  text-transform: capitalize;
+  font-size: 180%;
+}
+
+.heading > span {
+  display: block;
+  font-size: 130%;
+  font-weight: 200;
+  margin: 20px 0px;
+
+}
+
+
+@media screen and (max-width: 680px) {
+  .heading > span {
+    padding: 10px;
+    font-weight: 400;
+  }
+}
