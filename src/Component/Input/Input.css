@@ -1,7 +1,7 @@
 .input-form {
   display: grid;
   grid-template-columns: 4fr 1.4fr;
-  width: 60vw;
+  width: 40vw;
 }
 
 .input-field {
@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   .input-form{
     width: 100%;
   }
