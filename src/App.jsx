@@ -39,12 +39,12 @@ const App = () => {
     let copyOutgoingChar = outgoingChar;
     let copyUpcomingChar = upcomingChar;
 
-    if (score === 0 || !isTimerRunning) {
+    if (score == 0 || !isTimerRunning) {
       start();
       setIsTimerRunning(true);
     }
 
-    if (key.toUpperCase() === currentChar) {
+    if (key.toUpperCase() == currentChar) {
       setScore(score + 1);
 
       copyOutgoingChar += currentChar;
@@ -57,22 +57,22 @@ const App = () => {
         copyUpcomingChar = upcomingChar.substring(1);
         setUpcomingChar(copyUpcomingChar);
       } else {
-        if (time === 0) {
+        if (time == 0) {
           resetFn();
           return;
         }
-        setCurrentChar(score === 19 ? "Success!" : "Fail!");
+        setCurrentChar(score == 19 ? "Success!" : "Fail!");
         pause();
         if (
-          (highScore === 0 && score === 19) ||
-          (score === 19 && time < highScore)
+          (highScore == 0 && score == 19) ||
+          (score == 19 && time < highScore)
         ) {
           localStorage.highScore = JSON.stringify(time);
         }
         setHighScore(localStorage.highScore);
         reset();
       }
-    } else if (!upcomingChar === "") {
+    } else if (!upcomingChar == "") {
       setScore(score - 1);
       advanceTime(500);
     } else {
